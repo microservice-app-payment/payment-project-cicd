@@ -5,7 +5,7 @@ def call() {
     def serverDeployIP = "34.126.122.163"
     def serverSonarqubeIP = "34.126.122.163"
     def applicationDir = "/home/ubuntu/registry-service"
-    stage("Pull Code") {
+    stage("Test Code") {
         sh 'echo "Hello world"'
     }
 }
